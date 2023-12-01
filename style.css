@@ -1,0 +1,152 @@
+header{
+    font-family: 'Courier', monospace;
+}
+
+section{
+    font-family: 'Gill Sans', sans-serif;
+}
+
+.secContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+
+.imgSection{
+    text-align: center;
+    margin: 10px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    width: 200px;
+}
+
+.NavContainer{
+    display: flex;
+   
+}
+
+.navButton{
+    background-color: #13dee6; 
+    border: none;
+    color: black;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    margin: 0;
+    border: solid 1px black;
+    height: 40px;
+    font-family:'Courier New', Courier, monospace
+}
+
+.navButton:hover{
+    background-color: #26979b;
+}
+
+.grow1{
+    flex-grow: 1;
+    
+}
+
+button{
+    margin: 0;
+    width: 100%;
+}
+
+body{
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(30, 0, 255));
+}
+
+#btn_final{
+    text-align: center;
+    margin-top: 5%;
+    
+}
+#botaoFinal{
+    width: 20%;
+    height: 150px;
+    background-color: rgb(47, 136, 47);
+    border: none;
+    font-size: 200%;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 20px;
+}
+
+#botaoFinal:hover{
+    background-color:rgb(18, 129, 18)
+}
+
+.gen{
+    margin-right: 2%;
+}
+
+
+#formulario{
+    text-align: left;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.iptColab{
+    background-color: rgba(240, 240, 240, 0.2);
+    border: none;
+    width: 40%;
+    height: 20px;
+    border-radius:10px;
+}
+
+#btn_enviar{
+    width: 100%;
+    border: none;
+    height: 30px;
+    background-color: green;
+    
+}
+
+#DelCamp{
+    width: 100%;
+    border: none;
+    margin-top: 3px;
+    height: 25px;
+    background-color: grey;
+}
+
+#DelAll{
+    width: 30%;
+    height: 30px;
+    margin-left: 35%;
+    margin-top: 15px;
+    background-color: red;
+    border: none;
+}
+
+#DelAll:hover{
+    background-color: rgb(230, 101, 101);
+}
+
+.btnApagar{
+    width: 10%;
+}
+
+#iptPesq{
+    width: 20%;
+    height: 30px;
+    margin-left: 35%;
+    margin-top: 15px;
+}
+
+#BtnPesq{
+    width: 10%;
+    height: 35px;
+}

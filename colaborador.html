@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="style.css">
+
+        <title>index</title>
+    </head>
+    
+
+    <body>
+        <header> 
+            <div class="container">
+                <div id="imgLogo"> <img src="imgs/Oceano.png" width="60px"> </div>
+                <div style="font-size: 30px;"> Vida na Água </div>
+            </div>
+        </header>
+        <nav>
+            <div class="NavContainer">
+                <div class="grow1">
+                    <a href="index.html">
+                        <button class="navButton"> Home </button>
+                    </a>
+                </div>
+               
+                <div class="grow1">
+                    <a href="projetos.html">
+                        <button class="navButton">Projetos</button>
+                    </a>
+                </div>
+
+                <div class="grow1">
+                    <a href="colaborador.html">
+                        <button class="navButton">Seja um Colaborador</button>
+                    </a>
+                </div>
+            </div>
+        </nav>
+
+
+        <section id="secColab">
+            <div id="principalColab">
+                <form id="formulario">
+                    <fieldset>
+                      <legend>Seja um Colaborador</legend>
+                      <p>
+                        <label>Nome: </label>
+                        <input class="iptColab" type="text" name="name" id="Ipt_nome" placeholder="Digite seu nome" required/>
+                      </p>
+                      <p>
+                        <label>Sobrenome: </label>
+                        <input class="iptColab" type="text" name="sobrenome" id="Ipt_sobrenome" placeholder="Digite seu Sobrenome" required/>          
+                      </p>
+                      <p>
+                        <label>Sexo: </label> <br>
+                        <input type="radio" name="genero" class="gen" >  
+                        <label>Masculino</label>
+                              
+                        <input  type="radio" name="genero" class="gen" >  
+                        <label>Feminino</label>
+                        
+                        <input  type="radio" name="genero" class="gen" >
+                        <label>Outro</label>
+                          
+                      </p>
+
+                      <label>Senha: </label>
+                      <input id="ipt_Senha" class="iptColab" type="password" name="senha" placeholder="Digite sua senha" required><br><br>
+
+                      <button type="submit" onclick="receberValores()" id="btn_enviar" name="enviar">Enviar</button>
+                      <button type="reset" id="DelCamp" >Apagar Campos</button>
+                    </fieldset>
+                  </form>
+                  <input id="iptPesq" placeholder="Pesquisar"><button onclick="Pesquisa()" id="BtnPesq">Pesquisar</button>
+                  <button onclick="DelAll()" id="DelAll">Apagar Tudo</button>
+                  
+            </div>
+        </section>
+            <ul id="Lista">
+            </ul>
+
+    
+    </body>
+
+</html>
